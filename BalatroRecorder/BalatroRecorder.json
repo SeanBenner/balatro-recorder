@@ -1,0 +1,15 @@
+{
+  "id": "balatro_recorder",
+  "name": "Balatro Recorder",
+  "author": [
+    "SeanBenner"
+  ],
+  "description": "Logs every committed decision (play, discard, buy, sell, reroll, use, pick, skip, select blind, cash out) with a state snapshot, for imitation learning and replay. Read-only: never changes game state, saves or settings.",
+  "prefix": "BREC",
+  "main_file": "main.lua",
+  "priority": 100,
+  "badge_colour": "3B6EA5",
+  "badge_text_colour": "FFFFFF",
+  "display_name": "Recorder",
+  "version": "0.3.0"
+}
